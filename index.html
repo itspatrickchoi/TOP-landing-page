@@ -7,59 +7,70 @@
     <link rel="stylesheet" type="text/css" href="styles.css">
     <title>TOP Landing Page</title>
 </head>
+
+    <!-- Trying to give class names a meaning instead of simply hierarchical number-names was a bad idea, pretty confusing names I gave... -->
 <body>
-    <div class="header">
-        <img src="images/" alt="Header Logo">
+    <div class="header section">
+        <img class="header-logo" src="images/3-black-circle.png" alt="Header Logo">
+        <div class="link-container">
         <a href="http://">header-link-one</a>
         <a href="http://">header-link-one</a>
         <a href="http://">header-link-one</a>
+        </div>
     </div>
 
     <div class="content">
-        <div class="hero">
+        <div class="hero section">
             <div class="hero-text-card">
-                hellooo!
+                <div class="hero-title">This website is awesome!</div>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                <div class="button"><button type="button" >Sign Up</button></div>
             </div>
-            <div class="image-placeholder">
-                image-placeholder
-                <img src="images/">
+            <div class="image-placeholder" alt="image-placeholder">
+                <img class="image" src="images/vadim-bogulov-TLtqQqFH9Dw-unsplash.jpg" alt="Photo by Vadim Bogulov">
             </div>
         </div>
 
-        <div class="information">
+        <div class="information section">
             <div class="info-title">
                 Some random information.
             </div>
             <div class="info-container">
                 <div class="info-card">
                     <div class="box">box</div>
-                    <div class="sub-text">hi.</div>
+                    <div class="sub-text">enim ut tellus elementum sagittis vitae et leo</div>
                 </div>
                 <div class="info-card">
                     <div class="box">box</div>
-                    <div class="sub-text">hi.</div>
+                    <div class="sub-text">enim ut tellus elementum sagittis vitae et leo</div>
                 </div>
                 <div class="info-card">
                     <div class="box">box</div>
-                    <div class="sub-text">hi.</div>
+                    <div class="sub-text">enim ut tellus elementum sagittis vitae et leo</div>
                 </div>        
                 <div class="info-card">
                     <div class="box">box</div>
-                    <div class="sub-text">hi.</div>
+                    <div class="sub-text">enim ut tellus elementum sagittis vitae et leo</div>
                 </div>
             </div>
         </div>
 
-        <div class="quote-container">
-            <div class="quote">lol.</div>
-            <div class="author">-sokrates</div>
+        <div class="quote-container section">
+            <div class="quote"><em>Up here in heaven, sitting in my gaming lounge, enjoying Persona 5. What a divine game! Absolutely fantastic work by you young'uns.</em></div>
+            <div class="author">-Sokrates</div>
         </div>
 
-        <div class="call-to-action-container">
-            <div class="call-to-action-card">yooooooooo</div>
+        <div class="call-to-action-container section">
+            <div class="call-to-action-card">
+                <div class="call-to-action-left">
+                <div class="call-to-action-title">Quick! If you read this 'til the end, it's the end!</div>
+                <div class="call-to-action-text">Haha! I wasted a few seconds of your time! Muahahahahahaha! (Cringe.)</div>
+                </div>
+                <div class="call-to-action-right"><button id="call-to-action-button" type="button" >Sign Up</button></div>
+            </div>
         </div>
     </div>
-    <div class="footer">
+    <div class="footer section">
         Copyright &copy; The Odin Project 2021
     </div>
 
