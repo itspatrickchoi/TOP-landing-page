@@ -123,6 +123,15 @@ button {
   border-radius: 20px;
 }
 
+.info-image {
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: cover; /* Why doesn't work? */
+}
+
 .quote-container {
   background-color: #e5e7eb;
   color: #1f2937;
